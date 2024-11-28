@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
    <nav className='bg-[#F1F1F3]'>
-    <div className="container w-11/12 flex items-center justify-between mx-auto gap-10 font-be-vietnam-pro py-5 px-16 border-b border-[#e6e6e6]">
+    <div className="container mx-auto font-be-vietnam-pro">
+      <div className='w-11/12 flex items-center justify-between mx-auto gap-10 py-5 px-16 border-b border-[#e6e6e6]'>
       <div className='navbar-left flex items-center gap-10'>
         <div className='logo'>
          <img className='bg-[#FF9500] p-2 rounded-lg w-10 h-10' src={logoimg} alt=""/>
@@ -32,6 +33,7 @@ const Navbar = () => {
              </ul>
             
         </div> 
+      </div>
     </div>
      
     </nav>
