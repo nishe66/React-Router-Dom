@@ -15,14 +15,15 @@ const Hero = () => {
     <section className='bg-[#F1F1F3]'>
      <div className='container font-be-vietnam-pro mx-auto'>
        <div className='pt-20 pb-16 h-auto mx-auto'>
-        <div className=''>
+        <div>
         <div className='text-center relative'>
-       <img className='line-img w-9 h-10 absolute -top-10 left-48' 
+       <img className='w-9 h-10 absolute -top-10 left-64' 
        src={lineimg} alt=""/>
-       <div className='flex items-center mx-auto w-2/3 py-3 bg-slate-50  justify-center rounded-lg'>
+       <div className='flex items-center mx-auto w-[60%] py-3 bg-slate-50  justify-center rounded-lg'>
        <img className='bg-[#FFF4E5] p-2 rounded-lg w-12 h-12 mr-3' 
        src={iconimg} alt=""/>
-       <h1 className='text-5xl font-medium  leading-[72px] inline-block items-center  text-[#1A1A1A] rounded-md'>
+       <h1 className='text-5xl font-medium  leading-[72px] inline-block items-center  
+       text-[#1A1A1A] rounded-md'>
       <span className=' text-[#FF9500] mr-2'>Unlock</span>Your Creative Potential</h1>
       </div>
       <h2 className='text-4xl font-medium leading-[57px] text-[#262626] mt-5'>with Online Design and Development Courses.</h2>
