@@ -17,12 +17,12 @@ const Hero = () => {
        <div className='pt-20 pb-16 h-auto mx-auto'>
         <div className=''>
         <div className='text-center'>
-       <img className='line-img w-9 h-10 absolute top-48 left-16' 
+       <img className='line-img w-9 h-10 absolute top-48 left-72' 
        src={lineimg} alt=""/>
-       <div className='flex items-center mx-auto w-4/5 py-4 bg-[#FCFCFD] justify-center rounded-lg'>
+       <div className='flex items-center mx-auto w-2/3 py-3 bg-slate-50  justify-center rounded-lg'>
        <img className='bg-[#FFF4E5] p-2 rounded-lg w-12 h-12 mr-3' 
        src={iconimg} alt=""/>
-       <h1 className='text-5xl font-medium leading-[72px] items-center relative   text-[#1A1A1A] rounded-md'>
+       <h1 className='text-5xl font-medium  leading-[72px] inline-block items-center relative text-[#1A1A1A] rounded-md'>
       <span className=' text-[#FF9500] mr-2'>Unlock</span>Your Creative Potential</h1>
       </div>
       <h2 className='text-4xl font-medium leading-[57px] text-[#262626] mt-5'>with Online Design and Development Courses.</h2>
@@ -44,7 +44,7 @@ const Hero = () => {
       </div>
        </div>
      </div>
-    </section>
+   </section>
   )
 } 
 
