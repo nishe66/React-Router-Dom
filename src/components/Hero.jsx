@@ -17,7 +17,7 @@ const Hero = () => {
        <div className='pt-20 pb-16 h-auto mx-auto'>
         <div className=''>
         <div className='text-center relative'>
-       <img className='line-img w-9 h-10 absolute -top-10 left-52' 
+       <img className='line-img w-9 h-10 absolute -top-10 left-48' 
        src={lineimg} alt=""/>
        <div className='flex items-center mx-auto w-2/3 py-3 bg-slate-50  justify-center rounded-lg'>
        <img className='bg-[#FFF4E5] p-2 rounded-lg w-12 h-12 mr-3' 
