@@ -9,7 +9,7 @@ import { FaLocationDot } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer className='bg-[#FCFCFD]'>
-        <div className='container font-be-vietnam-pro'>
+        <div className='container mx-auto font-be-vietnam-pro'>
          <div className='flex w-10/12 justify-between mx-auto py-10  border-b border-[#e6e6e6]'>
          <div className='single-item'>
             <img className='bg-[#FF9500] p-2 rounded-lg w-10 h-10 mb-10'src={foimg} alt="" />
